@@ -1,0 +1,75 @@
+This is Ultimate 0.1.24-16d85fa
+[2020-06-17 21:18:11,885 INFO  L170        SettingsManager]: Resetting all preferences to default values...
+[2020-06-17 21:18:11,886 INFO  L174        SettingsManager]: Resetting UltimateCore preferences to default values
+[2020-06-17 21:18:11,896 INFO  L177        SettingsManager]: Ultimate Commandline Interface provides no preferences, ignoring...
+[2020-06-17 21:18:11,896 INFO  L174        SettingsManager]: Resetting Boogie Preprocessor preferences to default values
+[2020-06-17 21:18:11,897 INFO  L174        SettingsManager]: Resetting Boogie Procedure Inliner preferences to default values
+[2020-06-17 21:18:11,897 INFO  L174        SettingsManager]: Resetting Abstract Interpretation preferences to default values
+[2020-06-17 21:18:11,898 INFO  L174        SettingsManager]: Resetting LassoRanker preferences to default values
+[2020-06-17 21:18:11,900 INFO  L174        SettingsManager]: Resetting Reaching Definitions preferences to default values
+[2020-06-17 21:18:11,900 INFO  L174        SettingsManager]: Resetting SyntaxChecker preferences to default values
+[2020-06-17 21:18:11,900 INFO  L177        SettingsManager]: Büchi Program Product provides no preferences, ignoring...
+[2020-06-17 21:18:11,901 INFO  L174        SettingsManager]: Resetting LTL2Aut preferences to default values
+[2020-06-17 21:18:11,901 INFO  L174        SettingsManager]: Resetting PEA to Boogie preferences to default values
+[2020-06-17 21:18:11,902 INFO  L174        SettingsManager]: Resetting BlockEncodingV2 preferences to default values
+[2020-06-17 21:18:11,902 INFO  L174        SettingsManager]: Resetting ChcToBoogie preferences to default values
+[2020-06-17 21:18:11,903 INFO  L174        SettingsManager]: Resetting AutomataScriptInterpreter preferences to default values
+[2020-06-17 21:18:11,903 INFO  L174        SettingsManager]: Resetting BuchiAutomizer preferences to default values
+[2020-06-17 21:18:11,904 INFO  L174        SettingsManager]: Resetting CACSL2BoogieTranslator preferences to default values
+[2020-06-17 21:18:11,905 INFO  L174        SettingsManager]: Resetting CodeCheck preferences to default values
+[2020-06-17 21:18:11,906 INFO  L174        SettingsManager]: Resetting InvariantSynthesis preferences to default values
+[2020-06-17 21:18:11,907 INFO  L174        SettingsManager]: Resetting RCFGBuilder preferences to default values
+[2020-06-17 21:18:11,907 INFO  L174        SettingsManager]: Resetting TraceAbstraction preferences to default values
+[2020-06-17 21:18:11,909 INFO  L177        SettingsManager]: TraceAbstractionConcurrent provides no preferences, ignoring...
+[2020-06-17 21:18:11,909 INFO  L177        SettingsManager]: TraceAbstractionWithAFAs provides no preferences, ignoring...
+[2020-06-17 21:18:11,909 INFO  L174        SettingsManager]: Resetting TreeAutomizer preferences to default values
+[2020-06-17 21:18:11,910 INFO  L174        SettingsManager]: Resetting IcfgTransformer preferences to default values
+[2020-06-17 21:18:11,911 INFO  L174        SettingsManager]: Resetting Boogie Printer preferences to default values
+[2020-06-17 21:18:11,911 INFO  L174        SettingsManager]: Resetting ReqPrinter preferences to default values
+[2020-06-17 21:18:11,911 INFO  L174        SettingsManager]: Resetting Witness Printer preferences to default values
+[2020-06-17 21:18:11,912 INFO  L177        SettingsManager]: Boogie PL CUP Parser provides no preferences, ignoring...
+[2020-06-17 21:18:11,912 INFO  L174        SettingsManager]: Resetting CDTParser preferences to default values
+[2020-06-17 21:18:11,913 INFO  L177        SettingsManager]: AutomataScriptParser provides no preferences, ignoring...
+[2020-06-17 21:18:11,913 INFO  L177        SettingsManager]: ReqParser provides no preferences, ignoring...
+[2020-06-17 21:18:11,913 INFO  L174        SettingsManager]: Resetting SmtParser preferences to default values
+[2020-06-17 21:18:11,913 INFO  L174        SettingsManager]: Resetting Witness Parser preferences to default values
+[2020-06-17 21:18:11,914 INFO  L181        SettingsManager]: Finished resetting all preferences to default values...
+[2020-06-17 21:18:11,928 INFO  L81    nceAwareModelManager]: Repository-Root is: /tmp
+[2020-06-17 21:18:11,938 INFO  L258   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2020-06-17 21:18:11,941 INFO  L214   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2020-06-17 21:18:11,942 INFO  L271        PluginConnector]: Initializing Boogie PL CUP Parser...
+[2020-06-17 21:18:11,942 INFO  L276        PluginConnector]: Boogie PL CUP Parser initialized
+[2020-06-17 21:18:11,943 INFO  L418   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/lixie/LassoRankerExp/LassoRankerExp/./Program_non/160.bpl
+[2020-06-17 21:18:11,943 INFO  L111           BoogieParser]: Parsing: '/home/lixie/LassoRankerExp/LassoRankerExp/./Program_non/160.bpl'
+[2020-06-17 21:18:11,968 INFO  L296   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2020-06-17 21:18:11,978 INFO  L131        ToolchainWalker]: Walking toolchain with 3 elements.
+[2020-06-17 21:18:11,979 INFO  L113        PluginConnector]: ------------------------Boogie Preprocessor----------------------------
+[2020-06-17 21:18:11,979 INFO  L271        PluginConnector]: Initializing Boogie Preprocessor...
+[2020-06-17 21:18:11,979 INFO  L276        PluginConnector]: Boogie Preprocessor initialized
+[2020-06-17 21:18:11,997 INFO  L185        PluginConnector]: Executing the observer EnsureBoogieModelObserver from plugin Boogie Preprocessor for "160.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:11" (1/1) ...
+[2020-06-17 21:18:11,999 INFO  L185        PluginConnector]: Executing the observer TypeChecker from plugin Boogie Preprocessor for "160.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:11" (1/1) ...
+[2020-06-17 21:18:12,007 ERROR L1131           TypeChecker]: BPL: /home/lixie/LassoRankerExp/LassoRankerExp/./Program_non/160.bpl:5/57-5/59: Type check failed for x1 + 1
+[2020-06-17 21:18:12,008 INFO  L185        PluginConnector]: Executing the observer ConstExpander from plugin Boogie Preprocessor for "160.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:11" (1/1) ...
+[2020-06-17 21:18:12,008 INFO  L185        PluginConnector]: Executing the observer StructExpander from plugin Boogie Preprocessor for "160.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:11" (1/1) ...
+[2020-06-17 21:18:12,010 INFO  L185        PluginConnector]: Executing the observer UnstructureCode from plugin Boogie Preprocessor for "160.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:11" (1/1) ...
+[2020-06-17 21:18:12,013 INFO  L185        PluginConnector]: Executing the observer FunctionInliner from plugin Boogie Preprocessor for "160.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:11" (1/1) ...
+[2020-06-17 21:18:12,013 INFO  L185        PluginConnector]: Executing the observer BoogieSymbolTableConstructor from plugin Boogie Preprocessor for "160.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:11" (1/1) ...
+[2020-06-17 21:18:12,014 INFO  L132        PluginConnector]: ------------------------ END Boogie Preprocessor----------------------------
+[2020-06-17 21:18:12,014 INFO  L184        ToolchainWalker]: Toolchain execution was canceled (user or tool) before executing de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder
+[2020-06-17 21:18:12,015 INFO  L168              Benchmark]: Toolchain (without parser) took 46.20 ms. Allocated memory is still 514.9 MB. Free memory was 473.0 MB in the beginning and 470.3 MB in the end (delta: 2.7 MB). Peak memory consumption was 2.7 MB. Max. memory is 11.5 GB.
+[2020-06-17 21:18:12,018 INFO  L168              Benchmark]: Boogie PL CUP Parser took 0.12 ms. Allocated memory is still 514.9 MB. Free memory is still 473.0 MB. There was no memory consumed. Max. memory is 11.5 GB.
+[2020-06-17 21:18:12,018 INFO  L168              Benchmark]: Boogie Preprocessor took 35.43 ms. Allocated memory is still 514.9 MB. Free memory is still 470.3 MB. There was no memory consumed. Max. memory is 11.5 GB.
+[2020-06-17 21:18:12,019 INFO  L336   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * Boogie PL CUP Parser took 0.12 ms. Allocated memory is still 514.9 MB. Free memory is still 473.0 MB. There was no memory consumed. Max. memory is 11.5 GB.
+ * Boogie Preprocessor took 35.43 ms. Allocated memory is still 514.9 MB. Free memory is still 470.3 MB. There was no memory consumed. Max. memory is 11.5 GB.
+ * Results from de.uni_freiburg.informatik.ultimate.boogie.preprocessor:
+  - TypeErrorResult [Line: 5]: Type Error
+    Type check failed for x1 + 1
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Received shutdown request...
+Ultimate:
+GTK+ Version Check

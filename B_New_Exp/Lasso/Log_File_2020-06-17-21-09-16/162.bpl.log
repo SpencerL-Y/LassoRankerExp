@@ -1,0 +1,145 @@
+This is Ultimate 0.1.24-16d85fa
+[2020-06-17 21:18:15,133 INFO  L170        SettingsManager]: Resetting all preferences to default values...
+[2020-06-17 21:18:15,134 INFO  L174        SettingsManager]: Resetting UltimateCore preferences to default values
+[2020-06-17 21:18:15,143 INFO  L177        SettingsManager]: Ultimate Commandline Interface provides no preferences, ignoring...
+[2020-06-17 21:18:15,143 INFO  L174        SettingsManager]: Resetting Boogie Preprocessor preferences to default values
+[2020-06-17 21:18:15,144 INFO  L174        SettingsManager]: Resetting Boogie Procedure Inliner preferences to default values
+[2020-06-17 21:18:15,145 INFO  L174        SettingsManager]: Resetting Abstract Interpretation preferences to default values
+[2020-06-17 21:18:15,146 INFO  L174        SettingsManager]: Resetting LassoRanker preferences to default values
+[2020-06-17 21:18:15,147 INFO  L174        SettingsManager]: Resetting Reaching Definitions preferences to default values
+[2020-06-17 21:18:15,147 INFO  L174        SettingsManager]: Resetting SyntaxChecker preferences to default values
+[2020-06-17 21:18:15,148 INFO  L177        SettingsManager]: Büchi Program Product provides no preferences, ignoring...
+[2020-06-17 21:18:15,148 INFO  L174        SettingsManager]: Resetting LTL2Aut preferences to default values
+[2020-06-17 21:18:15,149 INFO  L174        SettingsManager]: Resetting PEA to Boogie preferences to default values
+[2020-06-17 21:18:15,149 INFO  L174        SettingsManager]: Resetting BlockEncodingV2 preferences to default values
+[2020-06-17 21:18:15,150 INFO  L174        SettingsManager]: Resetting ChcToBoogie preferences to default values
+[2020-06-17 21:18:15,150 INFO  L174        SettingsManager]: Resetting AutomataScriptInterpreter preferences to default values
+[2020-06-17 21:18:15,151 INFO  L174        SettingsManager]: Resetting BuchiAutomizer preferences to default values
+[2020-06-17 21:18:15,152 INFO  L174        SettingsManager]: Resetting CACSL2BoogieTranslator preferences to default values
+[2020-06-17 21:18:15,153 INFO  L174        SettingsManager]: Resetting CodeCheck preferences to default values
+[2020-06-17 21:18:15,154 INFO  L174        SettingsManager]: Resetting InvariantSynthesis preferences to default values
+[2020-06-17 21:18:15,154 INFO  L174        SettingsManager]: Resetting RCFGBuilder preferences to default values
+[2020-06-17 21:18:15,155 INFO  L174        SettingsManager]: Resetting TraceAbstraction preferences to default values
+[2020-06-17 21:18:15,157 INFO  L177        SettingsManager]: TraceAbstractionConcurrent provides no preferences, ignoring...
+[2020-06-17 21:18:15,157 INFO  L177        SettingsManager]: TraceAbstractionWithAFAs provides no preferences, ignoring...
+[2020-06-17 21:18:15,157 INFO  L174        SettingsManager]: Resetting TreeAutomizer preferences to default values
+[2020-06-17 21:18:15,158 INFO  L174        SettingsManager]: Resetting IcfgTransformer preferences to default values
+[2020-06-17 21:18:15,158 INFO  L174        SettingsManager]: Resetting Boogie Printer preferences to default values
+[2020-06-17 21:18:15,159 INFO  L174        SettingsManager]: Resetting ReqPrinter preferences to default values
+[2020-06-17 21:18:15,159 INFO  L174        SettingsManager]: Resetting Witness Printer preferences to default values
+[2020-06-17 21:18:15,160 INFO  L177        SettingsManager]: Boogie PL CUP Parser provides no preferences, ignoring...
+[2020-06-17 21:18:15,160 INFO  L174        SettingsManager]: Resetting CDTParser preferences to default values
+[2020-06-17 21:18:15,160 INFO  L177        SettingsManager]: AutomataScriptParser provides no preferences, ignoring...
+[2020-06-17 21:18:15,161 INFO  L177        SettingsManager]: ReqParser provides no preferences, ignoring...
+[2020-06-17 21:18:15,161 INFO  L174        SettingsManager]: Resetting SmtParser preferences to default values
+[2020-06-17 21:18:15,161 INFO  L174        SettingsManager]: Resetting Witness Parser preferences to default values
+[2020-06-17 21:18:15,162 INFO  L181        SettingsManager]: Finished resetting all preferences to default values...
+[2020-06-17 21:18:15,177 INFO  L81    nceAwareModelManager]: Repository-Root is: /tmp
+[2020-06-17 21:18:15,188 INFO  L258   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2020-06-17 21:18:15,190 INFO  L214   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2020-06-17 21:18:15,191 INFO  L271        PluginConnector]: Initializing Boogie PL CUP Parser...
+[2020-06-17 21:18:15,192 INFO  L276        PluginConnector]: Boogie PL CUP Parser initialized
+[2020-06-17 21:18:15,192 INFO  L418   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/lixie/LassoRankerExp/LassoRankerExp/./Program_non/162.bpl
+[2020-06-17 21:18:15,192 INFO  L111           BoogieParser]: Parsing: '/home/lixie/LassoRankerExp/LassoRankerExp/./Program_non/162.bpl'
+[2020-06-17 21:18:15,214 INFO  L296   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2020-06-17 21:18:15,223 INFO  L131        ToolchainWalker]: Walking toolchain with 3 elements.
+[2020-06-17 21:18:15,223 INFO  L113        PluginConnector]: ------------------------Boogie Preprocessor----------------------------
+[2020-06-17 21:18:15,223 INFO  L271        PluginConnector]: Initializing Boogie Preprocessor...
+[2020-06-17 21:18:15,224 INFO  L276        PluginConnector]: Boogie Preprocessor initialized
+[2020-06-17 21:18:15,242 INFO  L185        PluginConnector]: Executing the observer EnsureBoogieModelObserver from plugin Boogie Preprocessor for "162.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:15" (1/1) ...
+[2020-06-17 21:18:15,243 INFO  L185        PluginConnector]: Executing the observer TypeChecker from plugin Boogie Preprocessor for "162.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:15" (1/1) ...
+[2020-06-17 21:18:15,247 INFO  L185        PluginConnector]: Executing the observer ConstExpander from plugin Boogie Preprocessor for "162.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:15" (1/1) ...
+[2020-06-17 21:18:15,247 INFO  L185        PluginConnector]: Executing the observer StructExpander from plugin Boogie Preprocessor for "162.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:15" (1/1) ...
+[2020-06-17 21:18:15,248 INFO  L185        PluginConnector]: Executing the observer UnstructureCode from plugin Boogie Preprocessor for "162.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:15" (1/1) ...
+[2020-06-17 21:18:15,252 INFO  L185        PluginConnector]: Executing the observer FunctionInliner from plugin Boogie Preprocessor for "162.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:15" (1/1) ...
+[2020-06-17 21:18:15,252 INFO  L185        PluginConnector]: Executing the observer BoogieSymbolTableConstructor from plugin Boogie Preprocessor for "162.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:15" (1/1) ...
+[2020-06-17 21:18:15,253 INFO  L132        PluginConnector]: ------------------------ END Boogie Preprocessor----------------------------
+[2020-06-17 21:18:15,254 INFO  L113        PluginConnector]: ------------------------RCFGBuilder----------------------------
+[2020-06-17 21:18:15,254 INFO  L271        PluginConnector]: Initializing RCFGBuilder...
+[2020-06-17 21:18:15,254 INFO  L276        PluginConnector]: RCFGBuilder initialized
+[2020-06-17 21:18:15,255 INFO  L185        PluginConnector]: Executing the observer RCFGBuilderObserver from plugin RCFGBuilder for "162.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 09:18:15" (1/1) ...
+No working directory specified, using /home/lixie/LassoRankerExp/LassoRankerExp/z3
+Starting monitored process 1 with z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000 (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 1 with z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000
+[2020-06-17 21:18:15,289 INFO  L124     BoogieDeclarations]: Specification and implementation of procedure main given in one single declaration
+[2020-06-17 21:18:15,290 INFO  L130     BoogieDeclarations]: Found specification of procedure main
+[2020-06-17 21:18:15,290 INFO  L138     BoogieDeclarations]: Found implementation of procedure main
+[2020-06-17 21:18:32,422 INFO  L278             CfgBuilder]: Using library mode
+[2020-06-17 21:18:32,422 INFO  L286             CfgBuilder]: Removed 0 assue(true) statements.
+[2020-06-17 21:18:32,423 INFO  L202        PluginConnector]: Adding new model 162.bpl de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 17.06 09:18:32 BoogieIcfgContainer
+[2020-06-17 21:18:32,423 INFO  L132        PluginConnector]: ------------------------ END RCFGBuilder----------------------------
+[2020-06-17 21:18:32,423 INFO  L113        PluginConnector]: ------------------------LassoRanker----------------------------
+[2020-06-17 21:18:32,423 INFO  L271        PluginConnector]: Initializing LassoRanker...
+[2020-06-17 21:18:32,423 INFO  L276        PluginConnector]: LassoRanker initialized
+[2020-06-17 21:18:32,424 INFO  L185        PluginConnector]: Executing the observer LassoRankerObserver from plugin LassoRanker for "162.bpl de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 17.06 09:18:32" (1/1) ...
+[2020-06-17 21:18:32,442 INFO  L72            BuchiIsEmpty]: Start buchiIsEmpty. Operand 2 states.
+[2020-06-17 21:18:32,455 INFO  L131   ngComponentsAnalysis]: Automaton has 1 accepting balls. 1
+[2020-06-17 21:18:32,456 INFO  L87            BuchiIsEmpty]: Finished buchiIsEmpty Result is false
+[2020-06-17 21:18:32,456 INFO  L119           BuchiIsEmpty]: Starting construction of run
+[2020-06-17 21:18:32,460 INFO  L104     BuchiDifferenceFKV]: Start buchiDifferenceFKV. First operand 2 states. Second operand 1 states.
+[2020-06-17 21:18:32,468 INFO  L108     BuchiDifferenceFKV]: Finished buchiDifferenceFKV. First operand 2 states. Second operand 1 states. Result 3 states and 4 transitions. Complement of second has 2 states 2 powerset states0 rank states. The highest rank that occured is -1
+[2020-06-17 21:18:32,468 INFO  L72            BuchiIsEmpty]: Start buchiIsEmpty. Operand 3 states and 4 transitions.
+[2020-06-17 21:18:32,468 INFO  L131   ngComponentsAnalysis]: Automaton has 0 accepting balls. 0
+[2020-06-17 21:18:32,468 INFO  L87            BuchiIsEmpty]: Finished buchiIsEmpty Result is true
+[2020-06-17 21:20:54,344 WARN  L181               SmtUtils]: Spent 2.36 m on a formula simplification that was a NOOP. DAG size: 32
+Received shutdown request...
+[2020-06-17 21:23:14,078 FATAL L265        ToolchainWalker]: An unrecoverable error occured during an interaction with an SMT solver:
+de.uni_freiburg.informatik.ultimate.logic.SMTLIBException: External (z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000)Received EOF on stdin. No stderr output.
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Executor.parse(Executor.java:208)
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Executor.parseCheckSatResult(Executor.java:225)
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Scriptor.checkSat(Scriptor.java:155)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.WrapperScript.checkSat(WrapperScript.java:116)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.WrapperScript.checkSat(WrapperScript.java:116)
+	at de.uni_freiburg.informatik.ultimate.logic.Util.checkSat(Util.java:61)
+	at de.uni_freiburg.informatik.ultimate.logic.simplification.SimplifyDDA.getRedundancy(SimplifyDDA.java:626)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.SimplifyDDAWithTimeout.getRedundancy(SimplifyDDAWithTimeout.java:122)
+	at de.uni_freiburg.informatik.ultimate.logic.simplification.SimplifyDDA$Simplifier.walk(SimplifyDDA.java:371)
+	at de.uni_freiburg.informatik.ultimate.logic.NonRecursive.run(NonRecursive.java:122)
+	at de.uni_freiburg.informatik.ultimate.logic.NonRecursive.run(NonRecursive.java:113)
+	at de.uni_freiburg.informatik.ultimate.logic.simplification.SimplifyDDA.simplifyOnce(SimplifyDDA.java:650)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.SimplifyDDAWithTimeout.getSimplifiedTerm(SimplifyDDAWithTimeout.java:187)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.SmtUtils.simplify(SmtUtils.java:152)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.cfg.transitions.TransFormulaUtils.sequentialComposition(TransFormulaUtils.java:236)
+	at de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder.cfg.SequentialComposition.getInterproceduralTransFormula(SequentialComposition.java:230)
+	at de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder.cfg.SequentialComposition.getInterproceduralTransFormula(SequentialComposition.java:162)
+	at de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker.LassoRankerStarter.constructTransformula(LassoRankerStarter.java:281)
+	at de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker.LassoRankerStarter.<init>(LassoRankerStarter.java:173)
+	at de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker.LassoRankerObserver.process(LassoRankerObserver.java:72)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.modelwalker.CFGWalker.runObserver(CFGWalker.java:57)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.modelwalker.BaseWalker.runObserver(BaseWalker.java:93)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.modelwalker.BaseWalker.run(BaseWalker.java:86)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runObserver(PluginConnector.java:167)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runTool(PluginConnector.java:156)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.run(PluginConnector.java:128)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.executePluginConnector(ToolchainWalker.java:232)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.processPlugin(ToolchainWalker.java:226)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walkUnprotected(ToolchainWalker.java:142)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walk(ToolchainWalker.java:104)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainManager$Toolchain.processToolchain(ToolchainManager.java:316)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.toolchain.DefaultToolchainJob.run(DefaultToolchainJob.java:145)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: de.uni_freiburg.informatik.ultimate.logic.SMTLIBException: EOF
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Parser$Action$.CUP$do_action(Parser.java:1427)
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Parser.do_action(Parser.java:630)
+	at com.github.jhoenicke.javacup.runtime.LRParser.parse(LRParser.java:419)
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Executor.parse(Executor.java:205)
+	... 32 more
+[2020-06-17 21:23:14,081 INFO  L168              Benchmark]: Toolchain (without parser) took 298865.92 ms. Allocated memory is still 514.9 MB. Free memory was 472.9 MB in the beginning and 444.5 MB in the end (delta: 28.4 MB). Peak memory consumption was 28.4 MB. Max. memory is 11.5 GB.
+[2020-06-17 21:23:14,081 INFO  L168              Benchmark]: Boogie PL CUP Parser took 0.15 ms. Allocated memory is still 514.9 MB. Free memory is still 474.4 MB. There was no memory consumed. Max. memory is 11.5 GB.
+[2020-06-17 21:23:14,082 INFO  L168              Benchmark]: Boogie Preprocessor took 30.29 ms. Allocated memory is still 514.9 MB. Free memory was 471.5 MB in the beginning and 470.1 MB in the end (delta: 1.3 MB). Peak memory consumption was 1.3 MB. Max. memory is 11.5 GB.
+[2020-06-17 21:23:14,082 INFO  L168              Benchmark]: RCFGBuilder took 17169.08 ms. Allocated memory is still 514.9 MB. Free memory was 470.1 MB in the beginning and 458.0 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.1 MB. Max. memory is 11.5 GB.
+[2020-06-17 21:23:14,083 INFO  L168              Benchmark]: LassoRanker took 281656.98 ms. Allocated memory is still 514.9 MB. Free memory was 458.0 MB in the beginning and 444.5 MB in the end (delta: 13.5 MB). Peak memory consumption was 13.5 MB. Max. memory is 11.5 GB.
+[2020-06-17 21:23:14,085 INFO  L336   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * Boogie PL CUP Parser took 0.15 ms. Allocated memory is still 514.9 MB. Free memory is still 474.4 MB. There was no memory consumed. Max. memory is 11.5 GB.
+ * Boogie Preprocessor took 30.29 ms. Allocated memory is still 514.9 MB. Free memory was 471.5 MB in the beginning and 470.1 MB in the end (delta: 1.3 MB). Peak memory consumption was 1.3 MB. Max. memory is 11.5 GB.
+ * RCFGBuilder took 17169.08 ms. Allocated memory is still 514.9 MB. Free memory was 470.1 MB in the beginning and 458.0 MB in the end (delta: 12.1 MB). Peak memory consumption was 12.1 MB. Max. memory is 11.5 GB.
+ * LassoRanker took 281656.98 ms. Allocated memory is still 514.9 MB. Free memory was 458.0 MB in the beginning and 444.5 MB in the end (delta: 13.5 MB). Peak memory consumption was 13.5 MB. Max. memory is 11.5 GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker:
+  - ExceptionOrErrorResult: SMTLIBException: External (z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000)Received EOF on stdin. No stderr output.
+    de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker: SMTLIBException: External (z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000)Received EOF on stdin. No stderr output.: de.uni_freiburg.informatik.ultimate.smtsolver.external.Executor.parse(Executor.java:208)
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Completed graceful shutdown

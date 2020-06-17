@@ -1,0 +1,450 @@
+This is Ultimate 0.1.24-16d85fa
+[2019-05-02 20:20:45,306 INFO  L170        SettingsManager]: Resetting all preferences to default values...
+[2019-05-02 20:20:45,308 INFO  L174        SettingsManager]: Resetting UltimateCore preferences to default values
+[2019-05-02 20:20:45,317 INFO  L177        SettingsManager]: Ultimate Commandline Interface provides no preferences, ignoring...
+[2019-05-02 20:20:45,318 INFO  L174        SettingsManager]: Resetting Boogie Preprocessor preferences to default values
+[2019-05-02 20:20:45,318 INFO  L174        SettingsManager]: Resetting Boogie Procedure Inliner preferences to default values
+[2019-05-02 20:20:45,319 INFO  L174        SettingsManager]: Resetting Abstract Interpretation preferences to default values
+[2019-05-02 20:20:45,321 INFO  L174        SettingsManager]: Resetting LassoRanker preferences to default values
+[2019-05-02 20:20:45,322 INFO  L174        SettingsManager]: Resetting Reaching Definitions preferences to default values
+[2019-05-02 20:20:45,323 INFO  L174        SettingsManager]: Resetting SyntaxChecker preferences to default values
+[2019-05-02 20:20:45,323 INFO  L177        SettingsManager]: Büchi Program Product provides no preferences, ignoring...
+[2019-05-02 20:20:45,324 INFO  L174        SettingsManager]: Resetting LTL2Aut preferences to default values
+[2019-05-02 20:20:45,324 INFO  L174        SettingsManager]: Resetting PEA to Boogie preferences to default values
+[2019-05-02 20:20:45,325 INFO  L174        SettingsManager]: Resetting BlockEncodingV2 preferences to default values
+[2019-05-02 20:20:45,325 INFO  L174        SettingsManager]: Resetting ChcToBoogie preferences to default values
+[2019-05-02 20:20:45,326 INFO  L174        SettingsManager]: Resetting AutomataScriptInterpreter preferences to default values
+[2019-05-02 20:20:45,327 INFO  L174        SettingsManager]: Resetting BuchiAutomizer preferences to default values
+[2019-05-02 20:20:45,328 INFO  L174        SettingsManager]: Resetting CACSL2BoogieTranslator preferences to default values
+[2019-05-02 20:20:45,329 INFO  L174        SettingsManager]: Resetting CodeCheck preferences to default values
+[2019-05-02 20:20:45,330 INFO  L174        SettingsManager]: Resetting InvariantSynthesis preferences to default values
+[2019-05-02 20:20:45,331 INFO  L174        SettingsManager]: Resetting RCFGBuilder preferences to default values
+[2019-05-02 20:20:45,332 INFO  L174        SettingsManager]: Resetting TraceAbstraction preferences to default values
+[2019-05-02 20:20:45,333 INFO  L177        SettingsManager]: TraceAbstractionConcurrent provides no preferences, ignoring...
+[2019-05-02 20:20:45,333 INFO  L177        SettingsManager]: TraceAbstractionWithAFAs provides no preferences, ignoring...
+[2019-05-02 20:20:45,334 INFO  L174        SettingsManager]: Resetting TreeAutomizer preferences to default values
+[2019-05-02 20:20:45,334 INFO  L174        SettingsManager]: Resetting IcfgTransformer preferences to default values
+[2019-05-02 20:20:45,335 INFO  L174        SettingsManager]: Resetting Boogie Printer preferences to default values
+[2019-05-02 20:20:45,335 INFO  L174        SettingsManager]: Resetting ReqPrinter preferences to default values
+[2019-05-02 20:20:45,336 INFO  L174        SettingsManager]: Resetting Witness Printer preferences to default values
+[2019-05-02 20:20:45,336 INFO  L177        SettingsManager]: Boogie PL CUP Parser provides no preferences, ignoring...
+[2019-05-02 20:20:45,336 INFO  L174        SettingsManager]: Resetting CDTParser preferences to default values
+[2019-05-02 20:20:45,337 INFO  L177        SettingsManager]: AutomataScriptParser provides no preferences, ignoring...
+[2019-05-02 20:20:45,337 INFO  L177        SettingsManager]: ReqParser provides no preferences, ignoring...
+[2019-05-02 20:20:45,337 INFO  L174        SettingsManager]: Resetting SmtParser preferences to default values
+[2019-05-02 20:20:45,338 INFO  L174        SettingsManager]: Resetting Witness Parser preferences to default values
+[2019-05-02 20:20:45,338 INFO  L181        SettingsManager]: Finished resetting all preferences to default values...
+[2019-05-02 20:20:45,354 INFO  L81    nceAwareModelManager]: Repository-Root is: /tmp
+[2019-05-02 20:20:45,362 INFO  L258   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2019-05-02 20:20:45,365 INFO  L214   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2019-05-02 20:20:45,366 INFO  L271        PluginConnector]: Initializing Boogie PL CUP Parser...
+[2019-05-02 20:20:45,366 INFO  L276        PluginConnector]: Boogie PL CUP Parser initialized
+[2019-05-02 20:20:45,367 INFO  L418   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/Program_non/88.bpl
+[2019-05-02 20:20:45,367 INFO  L111           BoogieParser]: Parsing: '/home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/Program_non/88.bpl'
+[2019-05-02 20:20:45,394 INFO  L296   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2019-05-02 20:20:45,395 INFO  L131        ToolchainWalker]: Walking toolchain with 3 elements.
+[2019-05-02 20:20:45,395 INFO  L113        PluginConnector]: ------------------------Boogie Preprocessor----------------------------
+[2019-05-02 20:20:45,396 INFO  L271        PluginConnector]: Initializing Boogie Preprocessor...
+[2019-05-02 20:20:45,396 INFO  L276        PluginConnector]: Boogie Preprocessor initialized
+[2019-05-02 20:20:45,412 INFO  L185        PluginConnector]: Executing the observer EnsureBoogieModelObserver from plugin Boogie Preprocessor for "88.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:20:45" (1/1) ...
+[2019-05-02 20:20:45,413 INFO  L185        PluginConnector]: Executing the observer TypeChecker from plugin Boogie Preprocessor for "88.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:20:45" (1/1) ...
+[2019-05-02 20:20:45,417 INFO  L185        PluginConnector]: Executing the observer ConstExpander from plugin Boogie Preprocessor for "88.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:20:45" (1/1) ...
+[2019-05-02 20:20:45,418 INFO  L185        PluginConnector]: Executing the observer StructExpander from plugin Boogie Preprocessor for "88.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:20:45" (1/1) ...
+[2019-05-02 20:20:45,419 INFO  L185        PluginConnector]: Executing the observer UnstructureCode from plugin Boogie Preprocessor for "88.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:20:45" (1/1) ...
+[2019-05-02 20:20:45,422 INFO  L185        PluginConnector]: Executing the observer FunctionInliner from plugin Boogie Preprocessor for "88.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:20:45" (1/1) ...
+[2019-05-02 20:20:45,423 INFO  L185        PluginConnector]: Executing the observer BoogieSymbolTableConstructor from plugin Boogie Preprocessor for "88.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:20:45" (1/1) ...
+[2019-05-02 20:20:45,424 INFO  L132        PluginConnector]: ------------------------ END Boogie Preprocessor----------------------------
+[2019-05-02 20:20:45,424 INFO  L113        PluginConnector]: ------------------------RCFGBuilder----------------------------
+[2019-05-02 20:20:45,424 INFO  L271        PluginConnector]: Initializing RCFGBuilder...
+[2019-05-02 20:20:45,424 INFO  L276        PluginConnector]: RCFGBuilder initialized
+[2019-05-02 20:20:45,425 INFO  L185        PluginConnector]: Executing the observer RCFGBuilderObserver from plugin RCFGBuilder for "88.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:20:45" (1/1) ...
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 1 with z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000 (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 1 with z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000
+[2019-05-02 20:20:45,467 INFO  L124     BoogieDeclarations]: Specification and implementation of procedure main given in one single declaration
+[2019-05-02 20:20:45,467 INFO  L130     BoogieDeclarations]: Found specification of procedure main
+[2019-05-02 20:20:45,467 INFO  L138     BoogieDeclarations]: Found implementation of procedure main
+[2019-05-02 20:20:45,550 INFO  L278             CfgBuilder]: Using library mode
+[2019-05-02 20:20:45,550 INFO  L286             CfgBuilder]: Removed 0 assue(true) statements.
+[2019-05-02 20:20:45,551 INFO  L202        PluginConnector]: Adding new model 88.bpl de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 02.05 08:20:45 BoogieIcfgContainer
+[2019-05-02 20:20:45,551 INFO  L132        PluginConnector]: ------------------------ END RCFGBuilder----------------------------
+[2019-05-02 20:20:45,551 INFO  L113        PluginConnector]: ------------------------LassoRanker----------------------------
+[2019-05-02 20:20:45,551 INFO  L271        PluginConnector]: Initializing LassoRanker...
+[2019-05-02 20:20:45,551 INFO  L276        PluginConnector]: LassoRanker initialized
+[2019-05-02 20:20:45,552 INFO  L185        PluginConnector]: Executing the observer LassoRankerObserver from plugin LassoRanker for "88.bpl de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 02.05 08:20:45" (1/1) ...
+[2019-05-02 20:20:45,574 INFO  L72            BuchiIsEmpty]: Start buchiIsEmpty. Operand 2 states.
+[2019-05-02 20:20:45,589 INFO  L131   ngComponentsAnalysis]: Automaton has 1 accepting balls. 1
+[2019-05-02 20:20:45,590 INFO  L87            BuchiIsEmpty]: Finished buchiIsEmpty Result is false
+[2019-05-02 20:20:45,590 INFO  L119           BuchiIsEmpty]: Starting construction of run
+[2019-05-02 20:20:45,595 INFO  L104     BuchiDifferenceFKV]: Start buchiDifferenceFKV. First operand 2 states. Second operand 1 states.
+[2019-05-02 20:20:45,604 INFO  L108     BuchiDifferenceFKV]: Finished buchiDifferenceFKV. First operand 2 states. Second operand 1 states. Result 3 states and 4 transitions. Complement of second has 2 states 2 powerset states0 rank states. The highest rank that occured is -1
+[2019-05-02 20:20:45,604 INFO  L72            BuchiIsEmpty]: Start buchiIsEmpty. Operand 3 states and 4 transitions.
+[2019-05-02 20:20:45,604 INFO  L131   ngComponentsAnalysis]: Automaton has 0 accepting balls. 0
+[2019-05-02 20:20:45,605 INFO  L87            BuchiIsEmpty]: Finished buchiIsEmpty Result is true
+[2019-05-02 20:20:45,641 INFO  L216          LassoAnalysis]: Preferences:
+[2019-05-02 20:20:45,642 INFO  L124   ssoRankerPreferences]: Compute integeral hull: false
+[2019-05-02 20:20:45,642 INFO  L125   ssoRankerPreferences]: Enable LassoPartitioneer: true
+[2019-05-02 20:20:45,642 INFO  L126   ssoRankerPreferences]: Term annotations enabled: false
+[2019-05-02 20:20:45,642 INFO  L127   ssoRankerPreferences]: Use exernal solver: true
+[2019-05-02 20:20:45,643 INFO  L128   ssoRankerPreferences]: SMT solver command: z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,643 INFO  L129   ssoRankerPreferences]: Dump SMT script to file: false
+[2019-05-02 20:20:45,643 INFO  L130   ssoRankerPreferences]: Path of dumped script: .
+[2019-05-02 20:20:45,643 INFO  L131   ssoRankerPreferences]: Filename of dumped script: LassoRankerScript
+[2019-05-02 20:20:45,643 INFO  L132   ssoRankerPreferences]: MapElimAlgo: Frank
+[2019-05-02 20:20:45,643 INFO  L282          LassoAnalysis]: Starting lasso preprocessing...
+[2019-05-02 20:20:45,658 INFO  L141          MapEliminator]: Using MapEliminator with SimplificationTechnique=SIMPLIFY_DDA XnfConversionTechnique=BOTTOM_UP_WITH_LOCAL_SIMPLIFICATION AddInequalities=false OnlyTrivialImplicationsArrayWrite=false OnlyTrivialImplicationsForModifiedArguments=true OnlyArgumentsInFormula=true
+[2019-05-02 20:20:45,666 INFO  L141          MapEliminator]: Using MapEliminator with SimplificationTechnique=SIMPLIFY_DDA XnfConversionTechnique=BOTTOM_UP_WITH_LOCAL_SIMPLIFICATION AddInequalities=false OnlyTrivialImplicationsArrayWrite=false OnlyTrivialImplicationsForModifiedArguments=true OnlyArgumentsInFormula=true
+[2019-05-02 20:20:45,718 INFO  L300          LassoAnalysis]: Preprocessing complete.
+[2019-05-02 20:20:45,718 INFO  L412          LassoAnalysis]: Checking for nontermination...
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 2 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 2 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,722 INFO  L151   nArgumentSynthesizer]: Nontermination analysis: LINEAR_WITH_GUESSES Allow bounded executions: true Number of generalized eigenvectors: 0 Nilpotent components: true
+[2019-05-02 20:20:45,722 INFO  L163   nArgumentSynthesizer]: Using integer mode.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 3 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 3 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,742 INFO  L151   nArgumentSynthesizer]: Nontermination analysis: LINEAR_WITH_GUESSES Allow bounded executions: true Number of generalized eigenvectors: 3 Nilpotent components: true
+[2019-05-02 20:20:45,742 INFO  L163   nArgumentSynthesizer]: Using integer mode.
+[2019-05-02 20:20:45,769 INFO  L452          LassoAnalysis]: Proving nontermination failed: No geometric nontermination argument exists.
+[2019-05-02 20:20:45,770 INFO  L216          LassoAnalysis]: Preferences:
+[2019-05-02 20:20:45,771 INFO  L124   ssoRankerPreferences]: Compute integeral hull: false
+[2019-05-02 20:20:45,771 INFO  L125   ssoRankerPreferences]: Enable LassoPartitioneer: true
+[2019-05-02 20:20:45,771 INFO  L126   ssoRankerPreferences]: Term annotations enabled: false
+[2019-05-02 20:20:45,771 INFO  L127   ssoRankerPreferences]: Use exernal solver: true
+[2019-05-02 20:20:45,771 INFO  L128   ssoRankerPreferences]: SMT solver command: z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,771 INFO  L129   ssoRankerPreferences]: Dump SMT script to file: false
+[2019-05-02 20:20:45,771 INFO  L130   ssoRankerPreferences]: Path of dumped script: .
+[2019-05-02 20:20:45,772 INFO  L131   ssoRankerPreferences]: Filename of dumped script: LassoRankerScript
+[2019-05-02 20:20:45,772 INFO  L132   ssoRankerPreferences]: MapElimAlgo: Frank
+[2019-05-02 20:20:45,772 INFO  L282          LassoAnalysis]: Starting lasso preprocessing...
+[2019-05-02 20:20:45,773 INFO  L141          MapEliminator]: Using MapEliminator with SimplificationTechnique=SIMPLIFY_DDA XnfConversionTechnique=BOTTOM_UP_WITH_LOCAL_SIMPLIFICATION AddInequalities=false OnlyTrivialImplicationsArrayWrite=false OnlyTrivialImplicationsForModifiedArguments=true OnlyArgumentsInFormula=true
+[2019-05-02 20:20:45,779 INFO  L141          MapEliminator]: Using MapEliminator with SimplificationTechnique=SIMPLIFY_DDA XnfConversionTechnique=BOTTOM_UP_WITH_LOCAL_SIMPLIFICATION AddInequalities=false OnlyTrivialImplicationsArrayWrite=false OnlyTrivialImplicationsForModifiedArguments=true OnlyArgumentsInFormula=true
+[2019-05-02 20:20:45,797 INFO  L300          LassoAnalysis]: Preprocessing complete.
+[2019-05-02 20:20:45,800 INFO  L497          LassoAnalysis]: Using template 'affine'.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 4 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 4 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,809 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:45,810 INFO  L339   nArgumentSynthesizer]: Template has degree 0.
+[2019-05-02 20:20:45,811 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,811 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,811 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,811 INFO  L207   nArgumentSynthesizer]: 2 template conjuncts.
+[2019-05-02 20:20:45,813 INFO  L402   nArgumentSynthesizer]: We have 2 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,813 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,815 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 5 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 5 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,831 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:45,832 INFO  L339   nArgumentSynthesizer]: Template has degree 0.
+[2019-05-02 20:20:45,832 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,832 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,833 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,833 INFO  L207   nArgumentSynthesizer]: 2 template conjuncts.
+[2019-05-02 20:20:45,833 INFO  L402   nArgumentSynthesizer]: We have 2 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,834 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,834 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+[2019-05-02 20:20:45,848 INFO  L497          LassoAnalysis]: Using template '2-nested'.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 6 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 6 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,850 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:45,852 INFO  L339   nArgumentSynthesizer]: Template has degree 0.
+[2019-05-02 20:20:45,852 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,852 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,852 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,852 INFO  L207   nArgumentSynthesizer]: 3 template conjuncts.
+[2019-05-02 20:20:45,854 INFO  L402   nArgumentSynthesizer]: We have 3 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,854 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,855 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 7 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 7 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,872 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:45,873 INFO  L339   nArgumentSynthesizer]: Template has degree 0.
+[2019-05-02 20:20:45,874 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,874 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,874 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,874 INFO  L207   nArgumentSynthesizer]: 3 template conjuncts.
+[2019-05-02 20:20:45,875 INFO  L402   nArgumentSynthesizer]: We have 3 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,875 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,876 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+[2019-05-02 20:20:45,890 INFO  L497          LassoAnalysis]: Using template '3-nested'.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 8 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 8 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,893 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:45,894 INFO  L339   nArgumentSynthesizer]: Template has degree 0.
+[2019-05-02 20:20:45,894 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,894 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,894 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,895 INFO  L207   nArgumentSynthesizer]: 4 template conjuncts.
+[2019-05-02 20:20:45,896 INFO  L402   nArgumentSynthesizer]: We have 4 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,896 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,899 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 9 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 9 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,914 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:45,916 INFO  L339   nArgumentSynthesizer]: Template has degree 0.
+[2019-05-02 20:20:45,917 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,917 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,917 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,917 INFO  L207   nArgumentSynthesizer]: 4 template conjuncts.
+[2019-05-02 20:20:45,918 INFO  L402   nArgumentSynthesizer]: We have 4 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,918 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,920 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+[2019-05-02 20:20:45,933 INFO  L497          LassoAnalysis]: Using template '4-nested'.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 10 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 10 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,936 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:45,937 INFO  L339   nArgumentSynthesizer]: Template has degree 0.
+[2019-05-02 20:20:45,938 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,938 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,938 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,938 INFO  L207   nArgumentSynthesizer]: 5 template conjuncts.
+[2019-05-02 20:20:45,940 INFO  L402   nArgumentSynthesizer]: We have 5 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,940 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,943 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 11 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+[2019-05-02 20:20:45,959 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+Waiting until toolchain timeout for monitored process 11 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,961 INFO  L339   nArgumentSynthesizer]: Template has degree 0.
+[2019-05-02 20:20:45,961 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,961 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,962 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,962 INFO  L207   nArgumentSynthesizer]: 5 template conjuncts.
+[2019-05-02 20:20:45,965 INFO  L402   nArgumentSynthesizer]: We have 5 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,965 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,967 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+[2019-05-02 20:20:45,981 INFO  L497          LassoAnalysis]: Using template '2-phase'.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 12 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 12 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:45,983 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:45,985 WARN  L334   nArgumentSynthesizer]: Using a linear SMT query and a templates of degree > 0, hence this method is incomplete.
+[2019-05-02 20:20:45,985 INFO  L339   nArgumentSynthesizer]: Template has degree 1.
+[2019-05-02 20:20:45,985 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:45,985 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:45,985 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:45,985 INFO  L207   nArgumentSynthesizer]: 3 template conjuncts.
+[2019-05-02 20:20:45,987 INFO  L402   nArgumentSynthesizer]: We have 3 Motzkin's Theorem applications.
+[2019-05-02 20:20:45,987 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:45,990 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 13 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 13 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:46,012 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:46,014 WARN  L334   nArgumentSynthesizer]: Using a linear SMT query and a templates of degree > 0, hence this method is incomplete.
+[2019-05-02 20:20:46,014 INFO  L339   nArgumentSynthesizer]: Template has degree 1.
+[2019-05-02 20:20:46,014 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:46,014 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:46,015 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:46,015 INFO  L207   nArgumentSynthesizer]: 3 template conjuncts.
+[2019-05-02 20:20:46,016 INFO  L402   nArgumentSynthesizer]: We have 3 Motzkin's Theorem applications.
+[2019-05-02 20:20:46,016 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:46,018 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+[2019-05-02 20:20:46,032 INFO  L497          LassoAnalysis]: Using template 'lex(affine, affine)'.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 14 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 14 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:46,035 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:46,037 WARN  L334   nArgumentSynthesizer]: Using a linear SMT query and a templates of degree > 0, hence this method is incomplete.
+[2019-05-02 20:20:46,037 INFO  L339   nArgumentSynthesizer]: Template has degree 5.
+[2019-05-02 20:20:46,037 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:46,037 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:46,037 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:46,037 INFO  L207   nArgumentSynthesizer]: 4 template conjuncts.
+[2019-05-02 20:20:46,039 INFO  L402   nArgumentSynthesizer]: We have 4 Motzkin's Theorem applications.
+[2019-05-02 20:20:46,040 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:46,044 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 15 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 15 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:46,060 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:46,061 WARN  L334   nArgumentSynthesizer]: Using a linear SMT query and a templates of degree > 0, hence this method is incomplete.
+[2019-05-02 20:20:46,061 INFO  L339   nArgumentSynthesizer]: Template has degree 5.
+[2019-05-02 20:20:46,061 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:46,061 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:46,062 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:46,062 INFO  L207   nArgumentSynthesizer]: 4 template conjuncts.
+[2019-05-02 20:20:46,063 INFO  L402   nArgumentSynthesizer]: We have 4 Motzkin's Theorem applications.
+[2019-05-02 20:20:46,063 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:46,064 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+[2019-05-02 20:20:46,078 INFO  L497          LassoAnalysis]: Using template '2-piece'.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 16 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 16 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:46,081 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:46,082 WARN  L334   nArgumentSynthesizer]: Using a linear SMT query and a templates of degree > 0, hence this method is incomplete.
+[2019-05-02 20:20:46,082 INFO  L339   nArgumentSynthesizer]: Template has degree 7.
+[2019-05-02 20:20:46,082 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:46,083 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:46,083 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:46,083 INFO  L207   nArgumentSynthesizer]: 7 template conjuncts.
+[2019-05-02 20:20:46,087 INFO  L402   nArgumentSynthesizer]: We have 7 Motzkin's Theorem applications.
+[2019-05-02 20:20:46,087 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:46,095 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 17 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 17 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:46,114 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:46,116 WARN  L334   nArgumentSynthesizer]: Using a linear SMT query and a templates of degree > 0, hence this method is incomplete.
+[2019-05-02 20:20:46,116 INFO  L339   nArgumentSynthesizer]: Template has degree 7.
+[2019-05-02 20:20:46,116 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:46,116 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:46,117 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:46,117 INFO  L207   nArgumentSynthesizer]: 7 template conjuncts.
+[2019-05-02 20:20:46,120 INFO  L402   nArgumentSynthesizer]: We have 7 Motzkin's Theorem applications.
+[2019-05-02 20:20:46,120 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:46,129 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+[2019-05-02 20:20:46,143 INFO  L497          LassoAnalysis]: Using template '2-parallel'.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 18 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 18 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:46,146 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:46,148 WARN  L334   nArgumentSynthesizer]: Using a linear SMT query and a templates of degree > 0, hence this method is incomplete.
+[2019-05-02 20:20:46,148 INFO  L339   nArgumentSynthesizer]: Template has degree 4.
+[2019-05-02 20:20:46,148 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:46,148 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:46,149 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:46,149 INFO  L207   nArgumentSynthesizer]: 6 template conjuncts.
+[2019-05-02 20:20:46,151 INFO  L402   nArgumentSynthesizer]: We have 6 Motzkin's Theorem applications.
+[2019-05-02 20:20:46,151 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:46,155 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 19 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 19 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:20:46,172 INFO  L122   nArgumentSynthesizer]: Termination Analysis Settings:
+Termination analysis: LINEAR_WITH_GUESSES
+Number of strict supporting invariants: 1
+Number of non-strict supporting invariants: 0
+Consider only non-deceasing supporting invariants: true
+Simplify termination arguments: true
+Simplify supporting invariants: trueOverapproximate stem: false
+[2019-05-02 20:20:46,173 WARN  L334   nArgumentSynthesizer]: Using a linear SMT query and a templates of degree > 0, hence this method is incomplete.
+[2019-05-02 20:20:46,173 INFO  L339   nArgumentSynthesizer]: Template has degree 4.
+[2019-05-02 20:20:46,173 INFO  L352   nArgumentSynthesizer]: There is no stem transition; disabling supporting invariant generation.
+[2019-05-02 20:20:46,173 INFO  L205   nArgumentSynthesizer]: 1 stem disjuncts
+[2019-05-02 20:20:46,174 INFO  L206   nArgumentSynthesizer]: 1 loop disjuncts
+[2019-05-02 20:20:46,174 INFO  L207   nArgumentSynthesizer]: 6 template conjuncts.
+[2019-05-02 20:20:46,175 INFO  L402   nArgumentSynthesizer]: We have 6 Motzkin's Theorem applications.
+[2019-05-02 20:20:46,175 INFO  L403   nArgumentSynthesizer]: A total of 0 supporting invariants were added.
+[2019-05-02 20:20:46,178 INFO  L530          LassoAnalysis]: Proving termination failed for this template and these settings.
+[2019-05-02 20:20:46,193 INFO  L489     LassoRankerStarter]: LassoRanker could not prove termination or nontermination of the given linear lasso program.
+Templates: AffineTemplate NestedTemplate NestedTemplate NestedTemplate MultiphaseTemplate ComposedLexicographicTemplate PiecewiseTemplate ParallelTemplate
+[2019-05-02 20:20:46,193 INFO  L132        PluginConnector]: ------------------------ END LassoRanker----------------------------
+[2019-05-02 20:20:46,194 INFO  L168              Benchmark]: Toolchain (without parser) took 799.62 ms. Allocated memory is still 514.9 MB. Free memory was 477.6 MB in the beginning and 375.6 MB in the end (delta: 102.0 MB). Peak memory consumption was 102.0 MB. Max. memory is 11.5 GB.
+[2019-05-02 20:20:46,195 INFO  L168              Benchmark]: Boogie PL CUP Parser took 0.13 ms. Allocated memory is still 514.9 MB. Free memory is still 479.1 MB. There was no memory consumed. Max. memory is 11.5 GB.
+[2019-05-02 20:20:46,196 INFO  L168              Benchmark]: Boogie Preprocessor took 28.44 ms. Allocated memory is still 514.9 MB. Free memory was 477.6 MB in the beginning and 474.9 MB in the end (delta: 2.7 MB). Peak memory consumption was 2.7 MB. Max. memory is 11.5 GB.
+[2019-05-02 20:20:46,196 INFO  L168              Benchmark]: RCFGBuilder took 126.60 ms. Allocated memory is still 514.9 MB. Free memory was 474.9 MB in the beginning and 465.5 MB in the end (delta: 9.4 MB). Peak memory consumption was 9.4 MB. Max. memory is 11.5 GB.
+[2019-05-02 20:20:46,197 INFO  L168              Benchmark]: LassoRanker took 642.31 ms. Allocated memory is still 514.9 MB. Free memory was 465.5 MB in the beginning and 375.6 MB in the end (delta: 89.9 MB). Peak memory consumption was 89.9 MB. Max. memory is 11.5 GB.
+[2019-05-02 20:20:46,199 INFO  L336   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * Boogie PL CUP Parser took 0.13 ms. Allocated memory is still 514.9 MB. Free memory is still 479.1 MB. There was no memory consumed. Max. memory is 11.5 GB.
+ * Boogie Preprocessor took 28.44 ms. Allocated memory is still 514.9 MB. Free memory was 477.6 MB in the beginning and 474.9 MB in the end (delta: 2.7 MB). Peak memory consumption was 2.7 MB. Max. memory is 11.5 GB.
+ * RCFGBuilder took 126.60 ms. Allocated memory is still 514.9 MB. Free memory was 474.9 MB in the beginning and 465.5 MB in the end (delta: 9.4 MB). Peak memory consumption was 9.4 MB. Max. memory is 11.5 GB.
+ * LassoRanker took 642.31 ms. Allocated memory is still 514.9 MB. Free memory was 465.5 MB in the beginning and 375.6 MB in the end (delta: 89.9 MB). Peak memory consumption was 89.9 MB. Max. memory is 11.5 GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker:
+  - NoResult [Line: 9]: LassoRanker could not prove termination
+    LassoRanker could not prove termination or nontermination of the given linear lasso program.
+Templates: AffineTemplate NestedTemplate NestedTemplate NestedTemplate MultiphaseTemplate ComposedLexicographicTemplate PiecewiseTemplate ParallelTemplate
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Received shutdown request...

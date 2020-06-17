@@ -1,0 +1,132 @@
+This is Ultimate 0.1.24-16d85fa
+[2019-05-02 20:14:08,284 INFO  L170        SettingsManager]: Resetting all preferences to default values...
+[2019-05-02 20:14:08,285 INFO  L174        SettingsManager]: Resetting UltimateCore preferences to default values
+[2019-05-02 20:14:08,294 INFO  L177        SettingsManager]: Ultimate Commandline Interface provides no preferences, ignoring...
+[2019-05-02 20:14:08,295 INFO  L174        SettingsManager]: Resetting Boogie Preprocessor preferences to default values
+[2019-05-02 20:14:08,295 INFO  L174        SettingsManager]: Resetting Boogie Procedure Inliner preferences to default values
+[2019-05-02 20:14:08,296 INFO  L174        SettingsManager]: Resetting Abstract Interpretation preferences to default values
+[2019-05-02 20:14:08,298 INFO  L174        SettingsManager]: Resetting LassoRanker preferences to default values
+[2019-05-02 20:14:08,299 INFO  L174        SettingsManager]: Resetting Reaching Definitions preferences to default values
+[2019-05-02 20:14:08,299 INFO  L174        SettingsManager]: Resetting SyntaxChecker preferences to default values
+[2019-05-02 20:14:08,300 INFO  L177        SettingsManager]: Büchi Program Product provides no preferences, ignoring...
+[2019-05-02 20:14:08,300 INFO  L174        SettingsManager]: Resetting LTL2Aut preferences to default values
+[2019-05-02 20:14:08,301 INFO  L174        SettingsManager]: Resetting PEA to Boogie preferences to default values
+[2019-05-02 20:14:08,301 INFO  L174        SettingsManager]: Resetting BlockEncodingV2 preferences to default values
+[2019-05-02 20:14:08,302 INFO  L174        SettingsManager]: Resetting ChcToBoogie preferences to default values
+[2019-05-02 20:14:08,303 INFO  L174        SettingsManager]: Resetting AutomataScriptInterpreter preferences to default values
+[2019-05-02 20:14:08,303 INFO  L174        SettingsManager]: Resetting BuchiAutomizer preferences to default values
+[2019-05-02 20:14:08,304 INFO  L174        SettingsManager]: Resetting CACSL2BoogieTranslator preferences to default values
+[2019-05-02 20:14:08,306 INFO  L174        SettingsManager]: Resetting CodeCheck preferences to default values
+[2019-05-02 20:14:08,307 INFO  L174        SettingsManager]: Resetting InvariantSynthesis preferences to default values
+[2019-05-02 20:14:08,308 INFO  L174        SettingsManager]: Resetting RCFGBuilder preferences to default values
+[2019-05-02 20:14:08,308 INFO  L174        SettingsManager]: Resetting TraceAbstraction preferences to default values
+[2019-05-02 20:14:08,310 INFO  L177        SettingsManager]: TraceAbstractionConcurrent provides no preferences, ignoring...
+[2019-05-02 20:14:08,310 INFO  L177        SettingsManager]: TraceAbstractionWithAFAs provides no preferences, ignoring...
+[2019-05-02 20:14:08,310 INFO  L174        SettingsManager]: Resetting TreeAutomizer preferences to default values
+[2019-05-02 20:14:08,311 INFO  L174        SettingsManager]: Resetting IcfgTransformer preferences to default values
+[2019-05-02 20:14:08,312 INFO  L174        SettingsManager]: Resetting Boogie Printer preferences to default values
+[2019-05-02 20:14:08,312 INFO  L174        SettingsManager]: Resetting ReqPrinter preferences to default values
+[2019-05-02 20:14:08,313 INFO  L174        SettingsManager]: Resetting Witness Printer preferences to default values
+[2019-05-02 20:14:08,313 INFO  L177        SettingsManager]: Boogie PL CUP Parser provides no preferences, ignoring...
+[2019-05-02 20:14:08,313 INFO  L174        SettingsManager]: Resetting CDTParser preferences to default values
+[2019-05-02 20:14:08,314 INFO  L177        SettingsManager]: AutomataScriptParser provides no preferences, ignoring...
+[2019-05-02 20:14:08,314 INFO  L177        SettingsManager]: ReqParser provides no preferences, ignoring...
+[2019-05-02 20:14:08,314 INFO  L174        SettingsManager]: Resetting SmtParser preferences to default values
+[2019-05-02 20:14:08,315 INFO  L174        SettingsManager]: Resetting Witness Parser preferences to default values
+[2019-05-02 20:14:08,315 INFO  L181        SettingsManager]: Finished resetting all preferences to default values...
+[2019-05-02 20:14:08,331 INFO  L81    nceAwareModelManager]: Repository-Root is: /tmp
+[2019-05-02 20:14:08,339 INFO  L258   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2019-05-02 20:14:08,342 INFO  L214   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2019-05-02 20:14:08,343 INFO  L271        PluginConnector]: Initializing Boogie PL CUP Parser...
+[2019-05-02 20:14:08,343 INFO  L276        PluginConnector]: Boogie PL CUP Parser initialized
+[2019-05-02 20:14:08,344 INFO  L418   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/Program_non/48.bpl
+[2019-05-02 20:14:08,344 INFO  L111           BoogieParser]: Parsing: '/home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/Program_non/48.bpl'
+[2019-05-02 20:14:08,366 INFO  L296   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2019-05-02 20:14:08,367 INFO  L131        ToolchainWalker]: Walking toolchain with 3 elements.
+[2019-05-02 20:14:08,367 INFO  L113        PluginConnector]: ------------------------Boogie Preprocessor----------------------------
+[2019-05-02 20:14:08,367 INFO  L271        PluginConnector]: Initializing Boogie Preprocessor...
+[2019-05-02 20:14:08,367 INFO  L276        PluginConnector]: Boogie Preprocessor initialized
+[2019-05-02 20:14:08,383 INFO  L185        PluginConnector]: Executing the observer EnsureBoogieModelObserver from plugin Boogie Preprocessor for "48.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:14:08" (1/1) ...
+[2019-05-02 20:14:08,384 INFO  L185        PluginConnector]: Executing the observer TypeChecker from plugin Boogie Preprocessor for "48.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:14:08" (1/1) ...
+[2019-05-02 20:14:08,388 INFO  L185        PluginConnector]: Executing the observer ConstExpander from plugin Boogie Preprocessor for "48.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:14:08" (1/1) ...
+[2019-05-02 20:14:08,389 INFO  L185        PluginConnector]: Executing the observer StructExpander from plugin Boogie Preprocessor for "48.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:14:08" (1/1) ...
+[2019-05-02 20:14:08,390 INFO  L185        PluginConnector]: Executing the observer UnstructureCode from plugin Boogie Preprocessor for "48.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:14:08" (1/1) ...
+[2019-05-02 20:14:08,393 INFO  L185        PluginConnector]: Executing the observer FunctionInliner from plugin Boogie Preprocessor for "48.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:14:08" (1/1) ...
+[2019-05-02 20:14:08,394 INFO  L185        PluginConnector]: Executing the observer BoogieSymbolTableConstructor from plugin Boogie Preprocessor for "48.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:14:08" (1/1) ...
+[2019-05-02 20:14:08,394 INFO  L132        PluginConnector]: ------------------------ END Boogie Preprocessor----------------------------
+[2019-05-02 20:14:08,395 INFO  L113        PluginConnector]: ------------------------RCFGBuilder----------------------------
+[2019-05-02 20:14:08,395 INFO  L271        PluginConnector]: Initializing RCFGBuilder...
+[2019-05-02 20:14:08,395 INFO  L276        PluginConnector]: RCFGBuilder initialized
+[2019-05-02 20:14:08,396 INFO  L185        PluginConnector]: Executing the observer RCFGBuilderObserver from plugin RCFGBuilder for "48.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 02.05 08:14:08" (1/1) ...
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 1 with z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000 (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 1 with z3 SMTLIB2_COMPLIANT=true -memory:1024 -smt2 -in -t:12000
+[2019-05-02 20:14:08,436 INFO  L124     BoogieDeclarations]: Specification and implementation of procedure cyclic given in one single declaration
+[2019-05-02 20:14:08,436 INFO  L130     BoogieDeclarations]: Found specification of procedure cyclic
+[2019-05-02 20:14:08,436 INFO  L138     BoogieDeclarations]: Found implementation of procedure cyclic
+[2019-05-02 20:14:08,512 INFO  L278             CfgBuilder]: Using library mode
+[2019-05-02 20:14:08,512 INFO  L286             CfgBuilder]: Removed 0 assue(true) statements.
+[2019-05-02 20:14:08,513 INFO  L202        PluginConnector]: Adding new model 48.bpl de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 02.05 08:14:08 BoogieIcfgContainer
+[2019-05-02 20:14:08,513 INFO  L132        PluginConnector]: ------------------------ END RCFGBuilder----------------------------
+[2019-05-02 20:14:08,513 INFO  L113        PluginConnector]: ------------------------LassoRanker----------------------------
+[2019-05-02 20:14:08,513 INFO  L271        PluginConnector]: Initializing LassoRanker...
+[2019-05-02 20:14:08,514 INFO  L276        PluginConnector]: LassoRanker initialized
+[2019-05-02 20:14:08,514 INFO  L185        PluginConnector]: Executing the observer LassoRankerObserver from plugin LassoRanker for "48.bpl de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder CFG 02.05 08:14:08" (1/1) ...
+[2019-05-02 20:14:08,537 INFO  L72            BuchiIsEmpty]: Start buchiIsEmpty. Operand 2 states.
+[2019-05-02 20:14:08,552 INFO  L131   ngComponentsAnalysis]: Automaton has 1 accepting balls. 1
+[2019-05-02 20:14:08,553 INFO  L87            BuchiIsEmpty]: Finished buchiIsEmpty Result is false
+[2019-05-02 20:14:08,553 INFO  L119           BuchiIsEmpty]: Starting construction of run
+[2019-05-02 20:14:08,558 INFO  L104     BuchiDifferenceFKV]: Start buchiDifferenceFKV. First operand 2 states. Second operand 1 states.
+[2019-05-02 20:14:08,567 INFO  L108     BuchiDifferenceFKV]: Finished buchiDifferenceFKV. First operand 2 states. Second operand 1 states. Result 3 states and 4 transitions. Complement of second has 2 states 2 powerset states0 rank states. The highest rank that occured is -1
+[2019-05-02 20:14:08,567 INFO  L72            BuchiIsEmpty]: Start buchiIsEmpty. Operand 3 states and 4 transitions.
+[2019-05-02 20:14:08,568 INFO  L131   ngComponentsAnalysis]: Automaton has 0 accepting balls. 0
+[2019-05-02 20:14:08,568 INFO  L87            BuchiIsEmpty]: Finished buchiIsEmpty Result is true
+[2019-05-02 20:14:08,599 INFO  L216          LassoAnalysis]: Preferences:
+[2019-05-02 20:14:08,599 INFO  L124   ssoRankerPreferences]: Compute integeral hull: false
+[2019-05-02 20:14:08,600 INFO  L125   ssoRankerPreferences]: Enable LassoPartitioneer: true
+[2019-05-02 20:14:08,600 INFO  L126   ssoRankerPreferences]: Term annotations enabled: false
+[2019-05-02 20:14:08,600 INFO  L127   ssoRankerPreferences]: Use exernal solver: true
+[2019-05-02 20:14:08,600 INFO  L128   ssoRankerPreferences]: SMT solver command: z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:14:08,600 INFO  L129   ssoRankerPreferences]: Dump SMT script to file: false
+[2019-05-02 20:14:08,600 INFO  L130   ssoRankerPreferences]: Path of dumped script: .
+[2019-05-02 20:14:08,601 INFO  L131   ssoRankerPreferences]: Filename of dumped script: LassoRankerScript
+[2019-05-02 20:14:08,601 INFO  L132   ssoRankerPreferences]: MapElimAlgo: Frank
+[2019-05-02 20:14:08,601 INFO  L282          LassoAnalysis]: Starting lasso preprocessing...
+[2019-05-02 20:14:08,616 INFO  L141          MapEliminator]: Using MapEliminator with SimplificationTechnique=SIMPLIFY_DDA XnfConversionTechnique=BOTTOM_UP_WITH_LOCAL_SIMPLIFICATION AddInequalities=false OnlyTrivialImplicationsArrayWrite=false OnlyTrivialImplicationsForModifiedArguments=true OnlyArgumentsInFormula=true
+[2019-05-02 20:14:08,717 INFO  L300          LassoAnalysis]: Preprocessing complete.
+[2019-05-02 20:14:08,717 INFO  L412          LassoAnalysis]: Checking for nontermination...
+No working directory specified, using /home/xuechao/xuechao/work/Lab/Termination/Lasso-Ranker/z3
+Starting monitored process 2 with z3 -smt2 -in SMTLIB2_COMPLIANT=true (exit command is (exit), workingDir is null)
+Waiting until toolchain timeout for monitored process 2 with z3 -smt2 -in SMTLIB2_COMPLIANT=true
+[2019-05-02 20:14:08,722 INFO  L151   nArgumentSynthesizer]: Nontermination analysis: LINEAR_WITH_GUESSES Allow bounded executions: true Number of generalized eigenvectors: 0 Nilpotent components: true
+[2019-05-02 20:14:08,722 INFO  L163   nArgumentSynthesizer]: Using integer mode.
+[2019-05-02 20:14:08,745 INFO  L445          LassoAnalysis]: Proved nontermination for one component.
+[2019-05-02 20:14:08,745 INFO  L448          LassoAnalysis]: Non-Termination argument consisting of: Initial state: {cyclic_maxId=-1, cyclic_tmp=0, cyclic_id=-1} Honda state: {cyclic_maxId=-1, cyclic_tmp=0, cyclic_id=-1} Generalized eigenvectors: [] Lambdas: [] Nus: []
+[2019-05-02 20:14:08,756 INFO  L132        PluginConnector]: ------------------------ END LassoRanker----------------------------
+[2019-05-02 20:14:08,757 INFO  L168              Benchmark]: Toolchain (without parser) took 391.00 ms. Allocated memory is still 514.9 MB. Free memory was 477.6 MB in the beginning and 445.8 MB in the end (delta: 31.9 MB). Peak memory consumption was 31.9 MB. Max. memory is 11.5 GB.
+[2019-05-02 20:14:08,758 INFO  L168              Benchmark]: Boogie PL CUP Parser took 0.13 ms. Allocated memory is still 514.9 MB. Free memory is still 479.1 MB. There was no memory consumed. Max. memory is 11.5 GB.
+[2019-05-02 20:14:08,759 INFO  L168              Benchmark]: Boogie Preprocessor took 27.84 ms. Allocated memory is still 514.9 MB. Free memory was 477.6 MB in the beginning and 475.0 MB in the end (delta: 2.7 MB). Peak memory consumption was 2.7 MB. Max. memory is 11.5 GB.
+[2019-05-02 20:14:08,760 INFO  L168              Benchmark]: RCFGBuilder took 118.05 ms. Allocated memory is still 514.9 MB. Free memory was 475.0 MB in the beginning and 466.7 MB in the end (delta: 8.2 MB). Peak memory consumption was 8.2 MB. Max. memory is 11.5 GB.
+[2019-05-02 20:14:08,760 INFO  L168              Benchmark]: LassoRanker took 243.07 ms. Allocated memory is still 514.9 MB. Free memory was 465.4 MB in the beginning and 445.8 MB in the end (delta: 19.6 MB). Peak memory consumption was 19.6 MB. Max. memory is 11.5 GB.
+[2019-05-02 20:14:08,763 INFO  L336   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * Boogie PL CUP Parser took 0.13 ms. Allocated memory is still 514.9 MB. Free memory is still 479.1 MB. There was no memory consumed. Max. memory is 11.5 GB.
+ * Boogie Preprocessor took 27.84 ms. Allocated memory is still 514.9 MB. Free memory was 477.6 MB in the beginning and 475.0 MB in the end (delta: 2.7 MB). Peak memory consumption was 2.7 MB. Max. memory is 11.5 GB.
+ * RCFGBuilder took 118.05 ms. Allocated memory is still 514.9 MB. Free memory was 475.0 MB in the beginning and 466.7 MB in the end (delta: 8.2 MB). Peak memory consumption was 8.2 MB. Max. memory is 11.5 GB.
+ * LassoRanker took 243.07 ms. Allocated memory is still 514.9 MB. Free memory was 465.4 MB in the beginning and 445.8 MB in the end (delta: 19.6 MB). Peak memory consumption was 19.6 MB. Max. memory is 11.5 GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.analysis.lassoranker:
+  - StatisticsResult: NonterminationArgumentStatistics
+    Fixpoint 0GEVs Lambdas: [] Mus: []
+  - GeometricNonTerminationArgumentResult [Line: 18]: Nontermination argument in form of an infinite program execution.
+    Nontermination argument in form of an infinite execution
+State at position 0 is
+{id=-1, maxId=-1, tmp=0}
+State at position 1 is
+{id=-1, maxId=-1, tmp=0}
+For i>1, the state at position i is
+{id=-1 + sum_{k=0}^i 0, maxId=-1 + sum_{k=0}^i 0, tmp=0 + sum_{k=0}^i 0}
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Received shutdown request...

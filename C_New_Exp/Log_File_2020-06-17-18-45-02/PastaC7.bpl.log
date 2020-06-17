@@ -1,0 +1,119 @@
+This is Ultimate 0.1.24-16d85fa
+[2020-06-17 18:46:47,330 INFO  L170        SettingsManager]: Resetting all preferences to default values...
+[2020-06-17 18:46:47,331 INFO  L174        SettingsManager]: Resetting UltimateCore preferences to default values
+[2020-06-17 18:46:47,341 INFO  L177        SettingsManager]: Ultimate Commandline Interface provides no preferences, ignoring...
+[2020-06-17 18:46:47,341 INFO  L174        SettingsManager]: Resetting Boogie Preprocessor preferences to default values
+[2020-06-17 18:46:47,342 INFO  L174        SettingsManager]: Resetting Boogie Procedure Inliner preferences to default values
+[2020-06-17 18:46:47,343 INFO  L174        SettingsManager]: Resetting Abstract Interpretation preferences to default values
+[2020-06-17 18:46:47,344 INFO  L174        SettingsManager]: Resetting LassoRanker preferences to default values
+[2020-06-17 18:46:47,345 INFO  L174        SettingsManager]: Resetting Reaching Definitions preferences to default values
+[2020-06-17 18:46:47,345 INFO  L174        SettingsManager]: Resetting SyntaxChecker preferences to default values
+[2020-06-17 18:46:47,346 INFO  L177        SettingsManager]: Büchi Program Product provides no preferences, ignoring...
+[2020-06-17 18:46:47,346 INFO  L174        SettingsManager]: Resetting LTL2Aut preferences to default values
+[2020-06-17 18:46:47,346 INFO  L174        SettingsManager]: Resetting PEA to Boogie preferences to default values
+[2020-06-17 18:46:47,347 INFO  L174        SettingsManager]: Resetting BlockEncodingV2 preferences to default values
+[2020-06-17 18:46:47,347 INFO  L174        SettingsManager]: Resetting ChcToBoogie preferences to default values
+[2020-06-17 18:46:47,348 INFO  L174        SettingsManager]: Resetting AutomataScriptInterpreter preferences to default values
+[2020-06-17 18:46:47,348 INFO  L174        SettingsManager]: Resetting BuchiAutomizer preferences to default values
+[2020-06-17 18:46:47,349 INFO  L174        SettingsManager]: Resetting CACSL2BoogieTranslator preferences to default values
+[2020-06-17 18:46:47,351 INFO  L174        SettingsManager]: Resetting CodeCheck preferences to default values
+[2020-06-17 18:46:47,351 INFO  L174        SettingsManager]: Resetting InvariantSynthesis preferences to default values
+[2020-06-17 18:46:47,352 INFO  L174        SettingsManager]: Resetting RCFGBuilder preferences to default values
+[2020-06-17 18:46:47,353 INFO  L174        SettingsManager]: Resetting TraceAbstraction preferences to default values
+[2020-06-17 18:46:47,354 INFO  L177        SettingsManager]: TraceAbstractionConcurrent provides no preferences, ignoring...
+[2020-06-17 18:46:47,355 INFO  L177        SettingsManager]: TraceAbstractionWithAFAs provides no preferences, ignoring...
+[2020-06-17 18:46:47,355 INFO  L174        SettingsManager]: Resetting TreeAutomizer preferences to default values
+[2020-06-17 18:46:47,355 INFO  L174        SettingsManager]: Resetting IcfgTransformer preferences to default values
+[2020-06-17 18:46:47,356 INFO  L174        SettingsManager]: Resetting Boogie Printer preferences to default values
+[2020-06-17 18:46:47,356 INFO  L174        SettingsManager]: Resetting ReqPrinter preferences to default values
+[2020-06-17 18:46:47,357 INFO  L174        SettingsManager]: Resetting Witness Printer preferences to default values
+[2020-06-17 18:46:47,357 INFO  L177        SettingsManager]: Boogie PL CUP Parser provides no preferences, ignoring...
+[2020-06-17 18:46:47,357 INFO  L174        SettingsManager]: Resetting CDTParser preferences to default values
+[2020-06-17 18:46:47,358 INFO  L177        SettingsManager]: AutomataScriptParser provides no preferences, ignoring...
+[2020-06-17 18:46:47,358 INFO  L177        SettingsManager]: ReqParser provides no preferences, ignoring...
+[2020-06-17 18:46:47,358 INFO  L174        SettingsManager]: Resetting SmtParser preferences to default values
+[2020-06-17 18:46:47,358 INFO  L174        SettingsManager]: Resetting Witness Parser preferences to default values
+[2020-06-17 18:46:47,359 INFO  L181        SettingsManager]: Finished resetting all preferences to default values...
+[2020-06-17 18:46:47,374 INFO  L81    nceAwareModelManager]: Repository-Root is: /tmp
+[2020-06-17 18:46:47,385 INFO  L258   ainManager$Toolchain]: [Toolchain 1]: Applicable parser(s) successfully (re)initialized
+[2020-06-17 18:46:47,388 INFO  L214   ainManager$Toolchain]: [Toolchain 1]: Toolchain selected.
+[2020-06-17 18:46:47,389 INFO  L271        PluginConnector]: Initializing Boogie PL CUP Parser...
+[2020-06-17 18:46:47,390 INFO  L276        PluginConnector]: Boogie PL CUP Parser initialized
+[2020-06-17 18:46:47,390 INFO  L418   ainManager$Toolchain]: [Toolchain 1]: Parsing single file: /home/lixie/LassoRankerExp/LassoRankerExp/./C_Boogie/PastaC7.bpl
+[2020-06-17 18:46:47,391 INFO  L111           BoogieParser]: Parsing: '/home/lixie/LassoRankerExp/LassoRankerExp/./C_Boogie/PastaC7.bpl'
+[2020-06-17 18:46:47,411 INFO  L296   ainManager$Toolchain]: ####################### [Toolchain 1] #######################
+[2020-06-17 18:46:47,419 INFO  L131        ToolchainWalker]: Walking toolchain with 3 elements.
+[2020-06-17 18:46:47,420 INFO  L113        PluginConnector]: ------------------------Boogie Preprocessor----------------------------
+[2020-06-17 18:46:47,420 INFO  L271        PluginConnector]: Initializing Boogie Preprocessor...
+[2020-06-17 18:46:47,420 INFO  L276        PluginConnector]: Boogie Preprocessor initialized
+[2020-06-17 18:46:47,435 INFO  L185        PluginConnector]: Executing the observer EnsureBoogieModelObserver from plugin Boogie Preprocessor for "PastaC7.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 06:46:47" (1/1) ...
+[2020-06-17 18:46:47,436 INFO  L185        PluginConnector]: Executing the observer TypeChecker from plugin Boogie Preprocessor for "PastaC7.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 06:46:47" (1/1) ...
+[2020-06-17 18:46:47,439 INFO  L185        PluginConnector]: Executing the observer ConstExpander from plugin Boogie Preprocessor for "PastaC7.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 06:46:47" (1/1) ...
+[2020-06-17 18:46:47,440 INFO  L185        PluginConnector]: Executing the observer StructExpander from plugin Boogie Preprocessor for "PastaC7.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 06:46:47" (1/1) ...
+[2020-06-17 18:46:47,441 INFO  L185        PluginConnector]: Executing the observer UnstructureCode from plugin Boogie Preprocessor for "PastaC7.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 06:46:47" (1/1) ...
+[2020-06-17 18:46:47,443 INFO  L185        PluginConnector]: Executing the observer FunctionInliner from plugin Boogie Preprocessor for "PastaC7.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 06:46:47" (1/1) ...
+[2020-06-17 18:46:47,444 INFO  L185        PluginConnector]: Executing the observer BoogieSymbolTableConstructor from plugin Boogie Preprocessor for "PastaC7.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 06:46:47" (1/1) ...
+[2020-06-17 18:46:47,444 INFO  L132        PluginConnector]: ------------------------ END Boogie Preprocessor----------------------------
+[2020-06-17 18:46:47,445 INFO  L113        PluginConnector]: ------------------------RCFGBuilder----------------------------
+[2020-06-17 18:46:47,445 INFO  L271        PluginConnector]: Initializing RCFGBuilder...
+[2020-06-17 18:46:47,445 INFO  L276        PluginConnector]: RCFGBuilder initialized
+[2020-06-17 18:46:47,446 INFO  L185        PluginConnector]: Executing the observer RCFGBuilderObserver from plugin RCFGBuilder for "PastaC7.bpl de.uni_freiburg.informatik.ultimate.boogie.parser AST 17.06 06:46:47" (1/1) ...
+No working directory specified, using /home/lixie/LassoRankerExp/LassoRankerExp/z3
+[2020-06-17 18:46:47,458 FATAL L163          SolverBuilder]: Unable to construct solver
+[2020-06-17 18:46:47,458 FATAL L292        ToolchainWalker]: The Plugin de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder has thrown an exception:
+java.lang.RuntimeException: java.io.IOException: Cannot run program "/home/lixie/LassoRankerExp/LassoRankerExp/z3": error=13, Permission denied
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.SolverBuilder.buildScript(SolverBuilder.java:164)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.SolverBuilder.buildAndInitializeSolver(SolverBuilder.java:242)
+	at de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder.cfg.CfgBuilder.constructAndInitializeSolver(CfgBuilder.java:325)
+	at de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder.cfg.CfgBuilder.<init>(CfgBuilder.java:190)
+	at de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder.RCFGBuilderObserver.process(RCFGBuilderObserver.java:89)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.modelwalker.DFSTreeWalker.runObserver(DFSTreeWalker.java:65)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.modelwalker.BaseWalker.runObserver(BaseWalker.java:93)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.modelwalker.BaseWalker.run(BaseWalker.java:86)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runObserver(PluginConnector.java:167)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.runTool(PluginConnector.java:151)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.PluginConnector.run(PluginConnector.java:128)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.executePluginConnector(ToolchainWalker.java:232)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.processPlugin(ToolchainWalker.java:226)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walkUnprotected(ToolchainWalker.java:142)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainWalker.walk(ToolchainWalker.java:104)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.ToolchainManager$Toolchain.processToolchain(ToolchainManager.java:316)
+	at de.uni_freiburg.informatik.ultimate.core.coreplugin.toolchain.DefaultToolchainJob.run(DefaultToolchainJob.java:145)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.io.IOException: Cannot run program "/home/lixie/LassoRankerExp/LassoRankerExp/z3": error=13, Permission denied
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at java.lang.Runtime.exec(Runtime.java:620)
+	at java.lang.Runtime.exec(Runtime.java:485)
+	at de.uni_freiburg.informatik.ultimate.core.lib.util.MonitoredProcess.exec(MonitoredProcess.java:176)
+	at de.uni_freiburg.informatik.ultimate.core.lib.util.MonitoredProcess.exec(MonitoredProcess.java:210)
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Executor.createProcess(Executor.java:90)
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Executor.<init>(Executor.java:86)
+	at de.uni_freiburg.informatik.ultimate.smtsolver.external.Scriptor.<init>(Scriptor.java:74)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.SolverBuilder.createExternalSolver(SolverBuilder.java:118)
+	at de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.SolverBuilder.buildScript(SolverBuilder.java:151)
+	... 17 more
+Caused by: java.io.IOException: error=13, Permission denied
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 26 more
+[2020-06-17 18:46:47,461 INFO  L168              Benchmark]: Toolchain (without parser) took 49.12 ms. Allocated memory is still 514.9 MB. Free memory was 472.9 MB in the beginning and 468.8 MB in the end (delta: 4.1 MB). Peak memory consumption was 4.1 MB. Max. memory is 11.5 GB.
+[2020-06-17 18:46:47,464 INFO  L168              Benchmark]: Boogie PL CUP Parser took 0.14 ms. Allocated memory is still 514.9 MB. Free memory is still 474.4 MB. There was no memory consumed. Max. memory is 11.5 GB.
+[2020-06-17 18:46:47,464 INFO  L168              Benchmark]: Boogie Preprocessor took 25.03 ms. Allocated memory is still 514.9 MB. Free memory was 471.5 MB in the beginning and 470.2 MB in the end (delta: 1.3 MB). Peak memory consumption was 1.3 MB. Max. memory is 11.5 GB.
+[2020-06-17 18:46:47,465 INFO  L168              Benchmark]: RCFGBuilder took 15.29 ms. Allocated memory is still 514.9 MB. Free memory was 470.2 MB in the beginning and 468.8 MB in the end (delta: 1.3 MB). Peak memory consumption was 1.3 MB. Max. memory is 11.5 GB.
+[2020-06-17 18:46:47,467 INFO  L336   ainManager$Toolchain]: #######################  End [Toolchain 1] #######################
+ --- Results ---
+ * Results from de.uni_freiburg.informatik.ultimate.core:
+  - StatisticsResult: Toolchain Benchmarks
+    Benchmark results are:
+ * Boogie PL CUP Parser took 0.14 ms. Allocated memory is still 514.9 MB. Free memory is still 474.4 MB. There was no memory consumed. Max. memory is 11.5 GB.
+ * Boogie Preprocessor took 25.03 ms. Allocated memory is still 514.9 MB. Free memory was 471.5 MB in the beginning and 470.2 MB in the end (delta: 1.3 MB). Peak memory consumption was 1.3 MB. Max. memory is 11.5 GB.
+ * RCFGBuilder took 15.29 ms. Allocated memory is still 514.9 MB. Free memory was 470.2 MB in the beginning and 468.8 MB in the end (delta: 1.3 MB). Peak memory consumption was 1.3 MB. Max. memory is 11.5 GB.
+ * Results from de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder:
+  - ExceptionOrErrorResult: RuntimeException: java.io.IOException: Cannot run program "/home/lixie/LassoRankerExp/LassoRankerExp/z3": error=13, Permission denied
+    de.uni_freiburg.informatik.ultimate.plugins.generator.rcfgbuilder: RuntimeException: java.io.IOException: Cannot run program "/home/lixie/LassoRankerExp/LassoRankerExp/z3": error=13, Permission denied: de.uni_freiburg.informatik.ultimate.modelcheckerutils.smt.SolverBuilder.buildScript(SolverBuilder.java:164)
+RESULT: Ultimate could not prove your program: Toolchain returned no result.
+Received shutdown request...
+Ultimate:
+GTK+ Version Check
